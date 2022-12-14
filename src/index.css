@@ -179,3 +179,25 @@ button{
   font-weight: 700;
   margin-right: 5px;
 }
+
+/* socialproof */
+
+.socialproof{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #888888;
+  padding-top: 48px;
+}
+
+.brands{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}

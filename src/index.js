@@ -6,12 +6,14 @@ import {Navbar} from './components/navbar';
 import {Hero} from './components/hero';
 
 import reportWebVitals from './reportWebVitals';
+import { Socialproof } from './components/socialproof';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar></Navbar>
     <Hero></Hero>
+    <Socialproof></Socialproof>
     {/* <App /> */}
 
   </React.StrictMode>
