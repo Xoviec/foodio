@@ -201,3 +201,55 @@ button{
   display: flex;
   justify-content: space-around;
 }
+
+.tutorial-step{
+  margin: 96px 200px 96px 200px;
+  display: flex;
+}
+
+.tutorial-step:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+
+.tutorial-info{
+  width: 50%;
+
+}
+
+.tutorial-img{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+
+}
+.tutorial-info h1{
+  font-family: Rubik;
+  font-size: 86px;
+  font-weight: 600;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DDDDDD;
+}
+
+.tutorial-info h2{
+  font-family: Rubik;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.tutorial-info p{
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+
+}

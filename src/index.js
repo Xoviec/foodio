@@ -7,6 +7,7 @@ import {Hero} from './components/hero';
 
 import reportWebVitals from './reportWebVitals';
 import { Socialproof } from './components/socialproof';
+import { Tutorial } from './components/tutorial';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Navbar></Navbar>
     <Hero></Hero>
     <Socialproof></Socialproof>
+    <Tutorial></Tutorial>
     {/* <App /> */}
 
   </React.StrictMode>

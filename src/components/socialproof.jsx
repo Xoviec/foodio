@@ -17,7 +17,6 @@ export const Socialproof = () =>{
                 <img src={nyt} alt="" />
                 <img src={forbes} alt="" />
                 <img src={usatoday} alt="" />
-
             </div>
         </div>
     )
