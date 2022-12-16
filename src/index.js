@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import {Navbar} from './components/navbar';
 import {Hero} from './components/hero';
 
 import reportWebVitals from './reportWebVitals';
 import { Socialproof } from './components/socialproof';
 import { Tutorial } from './components/tutorial';
+import { Dishes } from './components/dishes';
+import { PriceList } from './components/price-list';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,8 @@ root.render(
     <Hero></Hero>
     <Socialproof></Socialproof>
     <Tutorial></Tutorial>
+    <Dishes></Dishes>
+    <PriceList></PriceList>
     {/* <App /> */}
 
   </React.StrictMode>
