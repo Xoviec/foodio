@@ -474,6 +474,8 @@ button{
 
 .price-list-cards{
   display: flex;
+  justify-content: center;
+  gap: 64px
 
 }
 
@@ -482,23 +484,73 @@ button{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rebeccapurple;
-  height: 568px;
+  /* background-color: rebeccapurple; */
+  /* height: 568px; */
   width: 402px;
   left: 286px;
   top: 3933px;
   border-radius: 11px;
 
+
 }
 
 .card-starter{
 
-  border: 2px solid #F9FDFA;
-  border-radius: 11px;
+  border: 2px solid #F9FDFA
+}
+
+.card-full{
+  overflow: hidden;
+  background-color: #E4F5E8;
+}
+
+.card-full .relative{
+
+  position: relative;
+  width: 100%;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+
+}
+
+.card-full .stripe{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  top: 25px;
+  right: -50px;
+  transform: rotate(45deg);
+
+  background-color: #FFD43B;
+  /* transform: translateY(-250px); */
 }
 
 .card-sections{
   display: flex;
+  
+}
+
+.card-sections p{
+  margin-left: 21.63px;
+  max-height: 51px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.card-sections:last-child p{
+  height: 19px;
+
 }
 
 .card-name{
@@ -508,17 +560,18 @@ button{
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: var(--light-green)
+  color: var(--light-green);
+  margin-top: 46px;
+  margin-bottom: 32px;
 }
 
 .pricing{
-  display: flex;
-  align-items: flex-end;
-  transform: translateY(100px);
+  background-color: transparent;
+
 }
 
 .pricing .currency{
-  height: 100%;
+  /* height: 100%; */
   font-family: Rubik;
   font-size: 30px;
   font-weight: 500;
@@ -528,7 +581,7 @@ button{
 }
 
 .pricing .value{
-  height: 100%;
+  /* height: 100%; */
 
   font-family: Rubik;
   font-size: 62px;
@@ -536,4 +589,75 @@ button{
   letter-spacing: 0em;
   text-align: left;
   color: #333333;
+}
+
+.per{
+  margin-top: 16px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6F6F6F;
+
+}
+
+.price-list-cards button{
+  width: 255px;
+  height: 52px;  
+  background: #4DAA57;
+  border-radius: 9px;
+  color: white;
+  margin-top: 67.5px;
+  margin-bottom: 46px;
+}
+
+.list{
+  margin-bottom: 0px;
+}
+
+.pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-footer{
+  margin-top: 48px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+}
+
+.pricing-header{
+  width: 100%;
+
+}
+
+.pricing-header-p{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #2F9E44;
+  margin-left: 200px;
+
+}
+
+.pricing-desc{
+  font-family: Rubik;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-left: 200px;
+
 }
